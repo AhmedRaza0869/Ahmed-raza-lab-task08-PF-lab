@@ -4,7 +4,7 @@ arm in a 3D array,where:? The first dimension = different robot joints
 ? The third dimension = x, y, z coordinate readings
 Sometimes sensors send negative readings due to direction reversal or magnetic interference.
 To normalize the data, the engineer writes a program to convert all negative values to their absolute
-values, ensuring the robot’s control system only deals with positive magnitude readings.*/
+values, ensuring the robotâ€™s control system only deals with positive magnitude readings.*/
 #include <stdio.h>
 #include <stdlib.h>
 int main() {
